@@ -1,0 +1,25 @@
+# Environment variables (API Keys, Secrets) - CRITICAL!
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# n8n local testing files (if any)
+*.sqlite
+*.db
+n8n-local-files/
+
+# VS Code directory (Workspace settings)
+.vscode/
+
+# Node modules (just in case you add custom npm packages later)
+node_modules/
+npm-debug.log
+yarn-error.log
